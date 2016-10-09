@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1899A1291DAAF90B00D96C1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A1281DAAF90B00D96C1B /* main.m */; };
+		1899A12C1DAAF90B00D96C1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A12B1DAAF90B00D96C1B /* AppDelegate.m */; };
+		1899A12F1DAAF90C00D96C1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A12E1DAAF90C00D96C1B /* ViewController.m */; };
+		1899A1321DAAF90C00D96C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1301DAAF90C00D96C1B /* Main.storyboard */; };
+		1899A1341DAAF90C00D96C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1331DAAF90C00D96C1B /* Assets.xcassets */; };
+		1899A1371DAAF90C00D96C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1351DAAF90C00D96C1B /* LaunchScreen.storyboard */; };
+		1899A1421DAAF90C00D96C1B /* CGAVPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A1411DAAF90C00D96C1B /* CGAVPlayerDemoTests.m */; };
+		1899A14D1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A14C1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m */; };
+		1899A15C1DAAF98100D96C1B /* CGPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A15B1DAAF98100D96C1B /* CGPlayerViewController.m */; };
+		1899A1631DAAFDA800D96C1B /* Audio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1621DAAFDA800D96C1B /* Audio.mp4 */; };
+		1899A1661DAAFDC700D96C1B /* QuickControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A1651DAAFDC700D96C1B /* QuickControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1899A13E1DAAF90C00D96C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1899A11C1DAAF90B00D96C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1899A1231DAAF90B00D96C1B;
+			remoteInfo = CGAVPlayerDemo;
+		};
+		1899A1491DAAF90C00D96C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1899A11C1DAAF90B00D96C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1899A1231DAAF90B00D96C1B;
+			remoteInfo = CGAVPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1899A1241DAAF90B00D96C1B /* CGAVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGAVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1899A1281DAAF90B00D96C1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1899A12A1DAAF90B00D96C1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1899A12B1DAAF90B00D96C1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1899A12D1DAAF90B00D96C1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1899A12E1DAAF90C00D96C1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1899A1311DAAF90C00D96C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1899A1331DAAF90C00D96C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1899A1361DAAF90C00D96C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1899A1381DAAF90C00D96C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1899A13D1DAAF90C00D96C1B /* CGAVPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGAVPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1899A1411DAAF90C00D96C1B /* CGAVPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGAVPlayerDemoTests.m; sourceTree = "<group>"; };
+		1899A1431DAAF90C00D96C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1899A1481DAAF90C00D96C1B /* CGAVPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGAVPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1899A14C1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGAVPlayerDemoUITests.m; sourceTree = "<group>"; };
+		1899A14E1DAAF90C00D96C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1899A15A1DAAF98100D96C1B /* CGPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPlayerViewController.h; sourceTree = "<group>"; };
+		1899A15B1DAAF98100D96C1B /* CGPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPlayerViewController.m; sourceTree = "<group>"; };
+		1899A1621DAAFDA800D96C1B /* Audio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Audio.mp4; sourceTree = "<group>"; };
+		1899A1641DAAFDC700D96C1B /* QuickControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickControl.h; sourceTree = "<group>"; };
+		1899A1651DAAFDC700D96C1B /* QuickControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1899A1211DAAF90B00D96C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899A13A1DAAF90C00D96C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899A1451DAAF90C00D96C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1899A11B1DAAF90B00D96C1B = {
+			isa = PBXGroup;
+			children = (
+				1899A1261DAAF90B00D96C1B /* CGAVPlayerDemo */,
+				1899A1401DAAF90C00D96C1B /* CGAVPlayerDemoTests */,
+				1899A14B1DAAF90C00D96C1B /* CGAVPlayerDemoUITests */,
+				1899A1251DAAF90B00D96C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1899A1251DAAF90B00D96C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1899A1241DAAF90B00D96C1B /* CGAVPlayerDemo.app */,
+				1899A13D1DAAF90C00D96C1B /* CGAVPlayerDemoTests.xctest */,
+				1899A1481DAAF90C00D96C1B /* CGAVPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1899A1261DAAF90B00D96C1B /* CGAVPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1899A1601DAAFD7A00D96C1B /* Resources */,
+				1899A15F1DAAFD6900D96C1B /* Tools */,
+				1899A1611DAAFD8900D96C1B /* Class */,
+				1899A12A1DAAF90B00D96C1B /* AppDelegate.h */,
+				1899A12B1DAAF90B00D96C1B /* AppDelegate.m */,
+				1899A12D1DAAF90B00D96C1B /* ViewController.h */,
+				1899A12E1DAAF90C00D96C1B /* ViewController.m */,
+				1899A15A1DAAF98100D96C1B /* CGPlayerViewController.h */,
+				1899A15B1DAAF98100D96C1B /* CGPlayerViewController.m */,
+				1899A1301DAAF90C00D96C1B /* Main.storyboard */,
+				1899A1331DAAF90C00D96C1B /* Assets.xcassets */,
+				1899A1351DAAF90C00D96C1B /* LaunchScreen.storyboard */,
+				1899A1381DAAF90C00D96C1B /* Info.plist */,
+				1899A1271DAAF90B00D96C1B /* Supporting Files */,
+			);
+			path = CGAVPlayerDemo;
+			sourceTree = "<group>";
+		};
+		1899A1271DAAF90B00D96C1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1899A1281DAAF90B00D96C1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1899A1401DAAF90C00D96C1B /* CGAVPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1899A1411DAAF90C00D96C1B /* CGAVPlayerDemoTests.m */,
+				1899A1431DAAF90C00D96C1B /* Info.plist */,
+			);
+			path = CGAVPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		1899A14B1DAAF90C00D96C1B /* CGAVPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1899A14C1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m */,
+				1899A14E1DAAF90C00D96C1B /* Info.plist */,
+			);
+			path = CGAVPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		1899A15F1DAAFD6900D96C1B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1899A1641DAAFDC700D96C1B /* QuickControl.h */,
+				1899A1651DAAFDC700D96C1B /* QuickControl.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1899A1601DAAFD7A00D96C1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1899A1621DAAFDA800D96C1B /* Audio.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1899A1611DAAFD8900D96C1B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1899A1231DAAF90B00D96C1B /* CGAVPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1899A1511DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemo" */;
+			buildPhases = (
+				1899A1201DAAF90B00D96C1B /* Sources */,
+				1899A1211DAAF90B00D96C1B /* Frameworks */,
+				1899A1221DAAF90B00D96C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGAVPlayerDemo;
+			productName = CGAVPlayerDemo;
+			productReference = 1899A1241DAAF90B00D96C1B /* CGAVPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1899A13C1DAAF90C00D96C1B /* CGAVPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1899A1541DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemoTests" */;
+			buildPhases = (
+				1899A1391DAAF90C00D96C1B /* Sources */,
+				1899A13A1DAAF90C00D96C1B /* Frameworks */,
+				1899A13B1DAAF90C00D96C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1899A13F1DAAF90C00D96C1B /* PBXTargetDependency */,
+			);
+			name = CGAVPlayerDemoTests;
+			productName = CGAVPlayerDemoTests;
+			productReference = 1899A13D1DAAF90C00D96C1B /* CGAVPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1899A1471DAAF90C00D96C1B /* CGAVPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1899A1571DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemoUITests" */;
+			buildPhases = (
+				1899A1441DAAF90C00D96C1B /* Sources */,
+				1899A1451DAAF90C00D96C1B /* Frameworks */,
+				1899A1461DAAF90C00D96C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1899A14A1DAAF90C00D96C1B /* PBXTargetDependency */,
+			);
+			name = CGAVPlayerDemoUITests;
+			productName = CGAVPlayerDemoUITests;
+			productReference = 1899A1481DAAF90C00D96C1B /* CGAVPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1899A11C1DAAF90B00D96C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wolf;
+				TargetAttributes = {
+					1899A1231DAAF90B00D96C1B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1899A13C1DAAF90C00D96C1B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1899A1231DAAF90B00D96C1B;
+					};
+					1899A1471DAAF90C00D96C1B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1899A1231DAAF90B00D96C1B;
+					};
+				};
+			};
+			buildConfigurationList = 1899A11F1DAAF90B00D96C1B /* Build configuration list for PBXProject "CGAVPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1899A11B1DAAF90B00D96C1B;
+			productRefGroup = 1899A1251DAAF90B00D96C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1899A1231DAAF90B00D96C1B /* CGAVPlayerDemo */,
+				1899A13C1DAAF90C00D96C1B /* CGAVPlayerDemoTests */,
+				1899A1471DAAF90C00D96C1B /* CGAVPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1899A1221DAAF90B00D96C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1899A1371DAAF90C00D96C1B /* LaunchScreen.storyboard in Resources */,
+				1899A1341DAAF90C00D96C1B /* Assets.xcassets in Resources */,
+				1899A1631DAAFDA800D96C1B /* Audio.mp4 in Resources */,
+				1899A1321DAAF90C00D96C1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899A13B1DAAF90C00D96C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899A1461DAAF90C00D96C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1899A1201DAAF90B00D96C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1899A12F1DAAF90C00D96C1B /* ViewController.m in Sources */,
+				1899A15C1DAAF98100D96C1B /* CGPlayerViewController.m in Sources */,
+				1899A1661DAAFDC700D96C1B /* QuickControl.m in Sources */,
+				1899A12C1DAAF90B00D96C1B /* AppDelegate.m in Sources */,
+				1899A1291DAAF90B00D96C1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899A1391DAAF90C00D96C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1899A1421DAAF90C00D96C1B /* CGAVPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899A1441DAAF90C00D96C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1899A14D1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1899A13F1DAAF90C00D96C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1899A1231DAAF90B00D96C1B /* CGAVPlayerDemo */;
+			targetProxy = 1899A13E1DAAF90C00D96C1B /* PBXContainerItemProxy */;
+		};
+		1899A14A1DAAF90C00D96C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1899A1231DAAF90B00D96C1B /* CGAVPlayerDemo */;
+			targetProxy = 1899A1491DAAF90C00D96C1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1899A1301DAAF90C00D96C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1899A1311DAAF90C00D96C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1899A1351DAAF90C00D96C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1899A1361DAAF90C00D96C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1899A14F1DAAF90C00D96C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1899A1501DAAF90C00D96C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1899A1521DAAF90C00D96C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CGAVPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisGaptain.CGAVPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1899A1531DAAF90C00D96C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CGAVPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisGaptain.CGAVPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1899A1551DAAF90C00D96C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CGAVPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisGaptain.CGAVPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGAVPlayerDemo.app/CGAVPlayerDemo";
+			};
+			name = Debug;
+		};
+		1899A1561DAAF90C00D96C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CGAVPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisGaptain.CGAVPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGAVPlayerDemo.app/CGAVPlayerDemo";
+			};
+			name = Release;
+		};
+		1899A1581DAAF90C00D96C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CGAVPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisGaptain.CGAVPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CGAVPlayerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1899A1591DAAF90C00D96C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CGAVPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisGaptain.CGAVPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CGAVPlayerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1899A11F1DAAF90B00D96C1B /* Build configuration list for PBXProject "CGAVPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1899A14F1DAAF90C00D96C1B /* Debug */,
+				1899A1501DAAF90C00D96C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1899A1511DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1899A1521DAAF90C00D96C1B /* Debug */,
+				1899A1531DAAF90C00D96C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1899A1541DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1899A1551DAAF90C00D96C1B /* Debug */,
+				1899A1561DAAF90C00D96C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1899A1571DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1899A1581DAAF90C00D96C1B /* Debug */,
+				1899A1591DAAF90C00D96C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1899A11C1DAAF90B00D96C1B /* Project object */;
+}
