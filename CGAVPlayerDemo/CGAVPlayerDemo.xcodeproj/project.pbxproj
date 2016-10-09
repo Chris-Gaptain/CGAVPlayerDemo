@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1899A1291DAAF90B00D96C1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A1281DAAF90B00D96C1B /* main.m */; };
-		1899A12C1DAAF90B00D96C1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A12B1DAAF90B00D96C1B /* AppDelegate.m */; };
-		1899A12F1DAAF90C00D96C1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A12E1DAAF90C00D96C1B /* ViewController.m */; };
 		1899A1321DAAF90C00D96C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1301DAAF90C00D96C1B /* Main.storyboard */; };
 		1899A1341DAAF90C00D96C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1331DAAF90C00D96C1B /* Assets.xcassets */; };
 		1899A1371DAAF90C00D96C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1351DAAF90C00D96C1B /* LaunchScreen.storyboard */; };
 		1899A1421DAAF90C00D96C1B /* CGAVPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A1411DAAF90C00D96C1B /* CGAVPlayerDemoTests.m */; };
 		1899A14D1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A14C1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m */; };
-		1899A15C1DAAF98100D96C1B /* CGPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A15B1DAAF98100D96C1B /* CGPlayerViewController.m */; };
 		1899A1631DAAFDA800D96C1B /* Audio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1899A1621DAAFDA800D96C1B /* Audio.mp4 */; };
 		1899A1661DAAFDC700D96C1B /* QuickControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899A1651DAAFDC700D96C1B /* QuickControl.m */; };
+		94B007E01DAA904600479500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B007DB1DAA904600479500 /* AppDelegate.m */; };
+		94B007E11DAA904600479500 /* CGPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B007DD1DAA904600479500 /* CGPlayerViewController.m */; };
+		94B007E21DAA904600479500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B007DF1DAA904600479500 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,6 @@
 /* Begin PBXFileReference section */
 		1899A1241DAAF90B00D96C1B /* CGAVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGAVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1899A1281DAAF90B00D96C1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1899A12A1DAAF90B00D96C1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1899A12B1DAAF90B00D96C1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1899A12D1DAAF90B00D96C1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1899A12E1DAAF90C00D96C1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1899A1311DAAF90C00D96C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1899A1331DAAF90C00D96C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1899A1361DAAF90C00D96C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,11 +50,15 @@
 		1899A1481DAAF90C00D96C1B /* CGAVPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGAVPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1899A14C1DAAF90C00D96C1B /* CGAVPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGAVPlayerDemoUITests.m; sourceTree = "<group>"; };
 		1899A14E1DAAF90C00D96C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1899A15A1DAAF98100D96C1B /* CGPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPlayerViewController.h; sourceTree = "<group>"; };
-		1899A15B1DAAF98100D96C1B /* CGPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPlayerViewController.m; sourceTree = "<group>"; };
 		1899A1621DAAFDA800D96C1B /* Audio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Audio.mp4; sourceTree = "<group>"; };
 		1899A1641DAAFDC700D96C1B /* QuickControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickControl.h; sourceTree = "<group>"; };
 		1899A1651DAAFDC700D96C1B /* QuickControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickControl.m; sourceTree = "<group>"; };
+		94B007DA1DAA904600479500 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94B007DB1DAA904600479500 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94B007DC1DAA904600479500 /* CGPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPlayerViewController.h; sourceTree = "<group>"; };
+		94B007DD1DAA904600479500 /* CGPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPlayerViewController.m; sourceTree = "<group>"; };
+		94B007DE1DAA904600479500 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94B007DF1DAA904600479500 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,15 +109,9 @@
 		1899A1261DAAF90B00D96C1B /* CGAVPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				94B007D91DAA904600479500 /* Class */,
 				1899A1601DAAFD7A00D96C1B /* Resources */,
 				1899A15F1DAAFD6900D96C1B /* Tools */,
-				1899A1611DAAFD8900D96C1B /* Class */,
-				1899A12A1DAAF90B00D96C1B /* AppDelegate.h */,
-				1899A12B1DAAF90B00D96C1B /* AppDelegate.m */,
-				1899A12D1DAAF90B00D96C1B /* ViewController.h */,
-				1899A12E1DAAF90C00D96C1B /* ViewController.m */,
-				1899A15A1DAAF98100D96C1B /* CGPlayerViewController.h */,
-				1899A15B1DAAF98100D96C1B /* CGPlayerViewController.m */,
 				1899A1301DAAF90C00D96C1B /* Main.storyboard */,
 				1899A1331DAAF90C00D96C1B /* Assets.xcassets */,
 				1899A1351DAAF90C00D96C1B /* LaunchScreen.storyboard */,
@@ -170,9 +164,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1899A1611DAAFD8900D96C1B /* Class */ = {
+		94B007D91DAA904600479500 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				94B007DA1DAA904600479500 /* AppDelegate.h */,
+				94B007DB1DAA904600479500 /* AppDelegate.m */,
+				94B007DE1DAA904600479500 /* ViewController.h */,
+				94B007DF1DAA904600479500 /* ViewController.m */,
+				94B007DC1DAA904600479500 /* CGPlayerViewController.h */,
+				94B007DD1DAA904600479500 /* CGPlayerViewController.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -308,11 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1899A12F1DAAF90C00D96C1B /* ViewController.m in Sources */,
-				1899A15C1DAAF98100D96C1B /* CGPlayerViewController.m in Sources */,
 				1899A1661DAAFDC700D96C1B /* QuickControl.m in Sources */,
-				1899A12C1DAAF90B00D96C1B /* AppDelegate.m in Sources */,
+				94B007E11DAA904600479500 /* CGPlayerViewController.m in Sources */,
 				1899A1291DAAF90B00D96C1B /* main.m in Sources */,
+				94B007E01DAA904600479500 /* AppDelegate.m in Sources */,
+				94B007E21DAA904600479500 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +538,7 @@
 				1899A1531DAAF90C00D96C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1899A1541DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +547,7 @@
 				1899A1561DAAF90C00D96C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1899A1571DAAF90C00D96C1B /* Build configuration list for PBXNativeTarget "CGAVPlayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +556,7 @@
 				1899A1591DAAF90C00D96C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
