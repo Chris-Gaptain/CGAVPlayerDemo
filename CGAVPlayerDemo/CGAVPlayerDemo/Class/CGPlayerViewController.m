@@ -63,7 +63,9 @@
 - (void)avPlayerDidFinishPlay:(NSNotification *)notification {
     NSLog(@"******视频播放完成******");
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.pauseBtn setTitle:@"开始" forState:UIControlStateNormal];
         [self.progressView setProgress:0 animated:NO];
+        [self.player seekToTime:kCMTimeZero];
     });
 }
 
@@ -112,7 +114,6 @@
         AVAsset *asset = [AVURLAsset URLAssetWithURL:url options:nil];
         self.item = [AVPlayerItem playerItemWithAsset:asset];
         _player = [AVPlayer playerWithPlayerItem:self.item];
-        [_player play];
         
         [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(avPlayerDidFinishPlay:) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appEnterBackground:) name:UIApplicationDidEnterBackgroundNotification object:nil];
@@ -132,6 +133,7 @@
     if (!_pauseBtn) {
         _pauseBtn = [UIButton buttonWithFrame:CGRectMake(25, CGRectGetMaxY(self.progressView.frame)+5, 30, 15) title:@"暂停" image:@"" target:self action:@selector(pauseBtnAction:)];
         _pauseBtn.backgroundColor = [UIColor redColor];
+        [_pauseBtn setTitle:@"开始" forState:UIControlStateNormal];
     }
     return _pauseBtn;
 }
