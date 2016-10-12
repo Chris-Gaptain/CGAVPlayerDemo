@@ -34,9 +34,8 @@
 @property (nonatomic, assign) CGPoint beginPoint;
 // 手势的结束位置
 @property (nonatomic, assign) CGPoint endedPoint;
-
+// 视频总长度
 @property (nonatomic, assign) float videoLength;
-//@property (nonatomic, assign) float currentTime;
 
 @end
 
@@ -68,6 +67,7 @@
         case UIGestureRecognizerStateBegan:
             
             self.beginPoint = [sender locationInView:self.view];
+            
             NSLog(@"Began======%f",self.beginPoint.x);
             break;
         
@@ -88,7 +88,6 @@
         case UIGestureRecognizerStateChanged:
             
             NSLog(@"Changed");
-
             break;
             
         default:
@@ -124,12 +123,10 @@
     } else {
         [self.player seekToTime:CMTimeMake(toTime, 1)];
     }
-
 }
 
 // progress和slider每秒执行一次
 -(void)addProgressObserver {
-    
     __weak CGPlayerViewController *weakSelf = self;
     [self.player addPeriodicTimeObserverForInterval:CMTimeMake(1.0, 1.0) queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {
         
@@ -140,7 +137,6 @@
             [weakSelf.progressView setProgress:(current/total) animated:YES];
             [weakSelf.slider setValue:(current/total) animated:YES];
         }
-        
     }];
 }
 
@@ -188,7 +184,6 @@
     if (!_playerLayer) {
         _playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
         _playerLayer.frame = CGRectMake(5, 65, 250, 300);
-        
     }
     return _playerLayer;
 }
