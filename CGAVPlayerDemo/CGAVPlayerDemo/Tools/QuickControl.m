@@ -25,7 +25,9 @@
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = frame;
-    [button setTitle:title forState:UIControlStateNormal];
+    if (title.length) {
+        [button setTitle:title forState:UIControlStateNormal];
+    }
     if (image.length) {
         [button setBackgroundImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
     }
