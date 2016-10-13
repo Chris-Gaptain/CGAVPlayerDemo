@@ -6,9 +6,6 @@
 //  Copyright © 2016年 wolf. All rights reserved.
 //
 
-#define kMainScreenWidth [UIScreen mainScreen].bounds.size.width
-#define kMainScreenHeight [UIScreen mainScreen].bounds.size.height
-
 #define kPlayerHeight kMainScreenHeight-100
 
 #import "CGPlayerViewController.h"
@@ -104,7 +101,13 @@
     
     float toTime = currentTime - 0.1*result;
     if (toTime <= 0) {
-        [self.player seekToTime:kCMTimeZero];
+        if (self.player.rate == 0) {
+            [self.progressView setProgress:0 animated:YES];
+            [self.slider setValue:0 animated:YES];
+        } else {
+            [self.player seekToTime:kCMTimeZero];
+        }
+        
     } else {
         [self.player seekToTime:CMTimeMake(toTime, 1)];
     }
