@@ -10,7 +10,7 @@
 
 #import "CGPlayerViewController.h"
 #import <AVFoundation/AVFoundation.h>
-#import "QuickControl.h"
+
 
 @interface CGPlayerViewController ()
 {

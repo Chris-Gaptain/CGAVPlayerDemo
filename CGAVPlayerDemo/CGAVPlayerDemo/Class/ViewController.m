@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CGPlayerViewController.h"
+#import "CGDownloadViewController.h"
 
 static NSString *cellIndentifier = @"cellIndentifier";
 
@@ -25,7 +26,7 @@ static NSString *cellIndentifier = @"cellIndentifier";
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
         
-    self.dataSource = [[NSArray alloc]initWithObjects:@"PlayLocalView", nil];
+    self.dataSource = [[NSArray alloc]initWithObjects:@"PlayLocalVideo",@"DownloadVideo", nil];
     
     [self.view addSubview:self.tableView];
 }
@@ -51,6 +52,13 @@ static NSString *cellIndentifier = @"cellIndentifier";
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
+            
+        case 1: {
+            CGDownloadViewController *vc = [[CGDownloadViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+
         default:
             break;
     }
